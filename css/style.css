@@ -18,6 +18,15 @@ body {
     /* background: red; */
 }
 
+body.full-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.full-page section {
+    flex: 1;
+}
+
 header {
     background-color: #C4C9D8;
     padding: 30px 50px;
@@ -34,6 +43,11 @@ header {
 .date p {
     margin: 0;
 }
+
+.active {
+    text-decoration: underline;    
+}
+
 section {
     padding: 100px 50px;
 }
@@ -51,6 +65,14 @@ footer {
 
 .pnk-bkg {
     background-color: var(--pink);
+}
+
+.lightyellow-bkg {
+    background: #FCE2B8
+}
+
+.yellow-bkg {
+    background: #FFD99D
 }
 
 h1 {
